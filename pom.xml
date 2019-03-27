@@ -22,22 +22,22 @@
 	</repositories>
 
 	<properties>
-		<!-- dbp71 -->
-		<database.project.group>71</database.project.group>
+		<!--  -->
+		<database.project.group>group</database.project.group>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<slf4j.version>1.6.1</slf4j.version>
-		<jettyVersion>9.0.6.v20130930</jettyVersion>
+		<jettyVersion></jettyVersion>
 		<jetty.port>90${database.project.group}</jetty.port>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-server</artifactId>
-			<version>${jettyVersion}</version>
+			<groupId></groupId>
+			<artifactId></artifactId>
+			<version>${}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.freemarker</groupId>
@@ -82,9 +82,9 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.eclipse.jetty</groupId>
-				<artifactId>jetty-maven-plugin</artifactId>
-				<version>${jettyVersion}</version>
+				<groupId>o</groupId>
+				<artifactId></artifactId>
+				<version>${}</version>
 				<configuration>
 					<httpConnector>
 						<port>${jetty.port}</port>
